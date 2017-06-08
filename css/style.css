@@ -35,6 +35,7 @@ header a {
   float: left;
   width: 30%;
   margin-top: 15px;
+  height: 30px;
 }
 
 nav {
@@ -76,6 +77,11 @@ section {
 .tagline h1 {
   text-align: center;
   font-size: 35px;
+  height: 25px;
+}
+
+h1#heading {
+  padding: 20px 0;
 }
 
 #gallery {
