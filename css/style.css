@@ -112,3 +112,36 @@ footer {
   text-align: center;
   padding-top: 10px;
 }
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #03899c;
+  opacity: 0.8;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.overlay h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  text-align: center;
+  margin: 20px;
+  padding: 3px 15px;
+}
+
+.overlay p {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3px 15px;
+}
